@@ -156,11 +156,6 @@ combineAndDisplayData(sunnuntai, [
 ]);
 
 
-    console.log('aamiainen', aamiainenMenuItems);
-    console.log('lounas', lounasMenuItems);
-    console.log('päivällinen', paivallinenMenuItems);
-    console.log('iltapala', iltapalaMenuItems);
-    console.log('kontsa', contentArrays);
   })
   .catch(error => {
     console.error('Error fetching data:', error);
