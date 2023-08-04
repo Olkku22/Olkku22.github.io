@@ -75,7 +75,7 @@ function filterDescription(description) {
   return { aamiainenDescription, lounasDescription, paivallinenDescription, iltapalaDescription };
 }
 
-fetch('http://ruokalistat.leijonacatering.fi/rss/2/1/25b3a8ba-f813-e511-892b-78e3b50298fc')
+fetch('https://corsproxy.io/?http%3A%2F%2Fruokalistat.leijonacatering.fi%2Frss%2F2%2F1%2F25b3a8ba-f813-e511-892b-78e3b50298fc')
   .then(response => response.text())
   .then(data => {
     const parser = new DOMParser();
