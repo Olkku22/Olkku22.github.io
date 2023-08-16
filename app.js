@@ -6,7 +6,7 @@ const torstai = document.getElementById('4');
 const perjantai = document.getElementById('5');
 const lauantai = document.getElementById('6');
 const sunnuntai = document.getElementById('7');
-const filterKeyword = 'Varusmiesruokalista ';
+const filterKeyword = 'Varusmiesruokalista';
 
 // Create separate arrays for each meal type
 const aamiainenMenuItems = [];
